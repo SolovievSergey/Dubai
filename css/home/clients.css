@@ -1,0 +1,176 @@
+.clients {
+  padding-top: 225px;
+}
+.clients__row {
+  display: flex;
+  justify-content: space-between;
+}
+.clients__item--one {
+  max-width: 525px;
+  position: relative;
+}
+.clients__item--two {
+  max-width: 525px;
+  position: relative;
+}
+.clients__foto {
+  position: absolute;
+  left: 25px;
+  top: -60px;
+  z-index: 2;
+}
+.clients__quotes {
+  position: absolute;
+  top: 40px;
+  right: 50px;
+}
+.clients__review {
+  padding: 104px 45px 23px 30px;
+  border: 1px solid #FCD54C;
+  position: relative;
+}
+.clients__name {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: #FFFFFF;
+}
+.clients__title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #929292;
+  margin-top: 20px;
+  margin-bottom: 34px;
+}
+.clients__title a {
+  color: #FCD54C;
+}
+.clients__text {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #929292;
+}
+.clients__svg {
+  text-align: center;
+  margin-top: 44px;
+}
+.clients__ellipse {
+  margin-left: 17px;
+}
+.clients__ellipse:first-child {
+  margin-left: 0;
+}
+
+@media (max-width: 1100px) {
+  .clients {
+    padding-top: 200px;
+  }
+  .clients__review {
+    padding: 100px 26px 23px 28px;
+  }
+  .clients__row {
+    justify-content: space-around;
+  }
+  .clients__item--one {
+    max-width: 420px;
+  }
+  .clients__item--two {
+    max-width: 420px;
+  }
+}
+@media (max-width: 820px) {
+  .clients {
+    padding-top: 150px;
+  }
+  .clients__review {
+    padding-top: 50px;
+  }
+  .clients__foto {
+    top: -45px;
+  }
+  .clients__foto img {
+    width: 80px;
+  }
+  .clients__title {
+    font-size: 14px;
+  }
+  .clients__text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .clients__item--one {
+    max-width: 380px;
+  }
+  .clients__item--two {
+    max-width: 380px;
+  }
+}
+@media (max-width: 767px) {
+  .clients {
+    padding-top: 100px;
+  }
+  .clients__foto {
+    top: -35px;
+  }
+  .clients__quotes {
+    width: 40px;
+    top: 30px;
+    right: 40px;
+  }
+  .clients__foto img {
+    width: 68px;
+  }
+  .clients__title {
+    font-size: 12px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  .clients__text {
+    font-size: 12px;
+    line-height: 14px;
+  }
+  .clients__item--one {
+    max-width: 330px;
+  }
+  .clients__item--two {
+    max-width: 330px;
+  }
+  .clients__svg {
+    margin-top: 36px;
+  }
+}
+@media (max-width: 576px) {
+  .clients__row {
+    flex-wrap: wrap;
+  }
+  .clients__item--one {
+    max-width: 290px;
+  }
+  .clients__item--two {
+    max-width: 290px;
+    margin-top: 50px;
+  }
+  .clients__svg {
+    margin-top: 30px;
+  }
+}
+@media (max-width: 320px) {
+  .clients__quotes {
+    width: 30px;
+    top: 20px;
+    right: 30px;
+  }
+  .clients__item--two {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=clients.css.map */

@@ -1,0 +1,122 @@
+.largest {
+  padding-top: 110px;
+  padding-bottom: 120px;
+}
+.largest__faq {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 60px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.largest__item {
+  border-top: 1px solid #929292;
+  border-bottom: 1px solid #929292;
+  position: relative;
+}
+.largest__title--first {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #FFFFFF;
+  padding-top: 10px;
+}
+.largest__title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 130%;
+  color: #FFFFFF;
+  padding: 20px 0;
+  border-bottom: 1px solid #929292;
+}
+.largest__text {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 160%;
+  color: #E8E8E8;
+  padding-left: 50px;
+  padding-top: 33px;
+  padding-bottom: 40px;
+}
+.largest__svg--first {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  transform: rotate(90deg);
+  cursor: pointer;
+}
+.largest__body {
+  position: relative;
+}
+.largest__svg {
+  position: absolute;
+  right: 0;
+  top: 20px;
+  cursor: pointer;
+}
+.largest__hr {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.3);
+}
+
+@media (max-width: 767px) {
+  .largest {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    max-width: 710px;
+    margin: 0 auto;
+  }
+  .largest__faq {
+    font-size: 30px;
+  }
+  .largest__title--first {
+    font-size: 14px;
+  }
+  .largest__title {
+    font-size: 14px;
+  }
+  .largest__text {
+    font-size: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+}
+@media (max-width: 320px) {
+  .largest {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    max-width: 288px;
+  }
+  .largest__faq {
+    font-size: 24px;
+  }
+  .largest__title--first {
+    font-size: 12px;
+    padding-right: 38px;
+  }
+  .largest__title {
+    font-size: 12px;
+    padding-right: 38px;
+  }
+  .largest__text {
+    font-size: 10px;
+  }
+  .largest__svg {
+    width: 12px;
+    height: 16px;
+  }
+  .largest__svg--first {
+    width: 12px;
+    height: 16px;
+  }
+}
+
+/*# sourceMappingURL=largest.css.map */

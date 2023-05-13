@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap');
+
+@import 'header';
+@import 'home/home';
+@import 'home/intro';
+@import 'home/wrapper';
+@import 'home/contact';
+@import 'home/useful';
+@import 'home/clients';
+@import 'home/largest';
+@import 'footer';
+
+
+body {
+    background: #272727;
+    font-size: 16px;
+    
+}
+
+.container-body {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    padding: 0 10px;
+}

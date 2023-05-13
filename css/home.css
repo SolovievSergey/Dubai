@@ -1,0 +1,140 @@
+.home {
+  background: url("../img/slider1.jpg") center no-repeat;
+  width: 94%;
+  height: 100vh;
+  background-size: cover;
+  margin: 0 auto;
+  position: relative;
+}
+.home__welcome {
+  max-width: 732px;
+  padding: 330px 0 0 18px;
+}
+.home__suptitle {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.home__title {
+  font-family: "Space Grotesk";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 96px;
+  line-height: 100px;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+.home__subtitle {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+.home__social {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 20px 0 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.home__icon {
+  margin-bottom: 20px;
+}
+.home__icon:hover {
+  transform: scale(1.7);
+}
+.home__stat {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  background: #272727;
+}
+.home__item {
+  max-width: 200px;
+  position: relative;
+  margin-left: 150px;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-right: 20px;
+}
+.home__item:first-child {
+  margin-left: 50px;
+}
+.home__namb {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 24px;
+  color: #FFFFFF;
+  position: absolute;
+  margin-top: 15px;
+  cursor: pointer;
+}
+.home__namb:hover {
+  color: #FCD54C;
+}
+.home__text {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FFFFFF;
+  padding-left: 80px;
+}
+.home__var {
+  margin-top: 250px;
+  padding-left: 20px;
+}
+.home__prev {
+  color: #FFFFFF;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+  position: relative;
+  padding-right: 20px;
+}
+.home__prev:hover {
+  color: #929292;
+}
+.home__prev::after {
+  content: "";
+  display: block;
+  width: 2px;
+  height: 20px;
+  position: absolute;
+  background: #FFFFFF;
+  right: 0;
+  top: 3px;
+}
+.home__next {
+  color: #FFFFFF;
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+  margin-left: 20px;
+}
+.home__next:hover {
+  color: #929292;
+}
+
+/*# sourceMappingURL=home.css.map */
