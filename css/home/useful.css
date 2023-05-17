@@ -40,6 +40,8 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.useful .cards__item {
   cursor: pointer;
 }
 .useful .cards__front {
@@ -49,7 +51,7 @@
   position: absolute;
   top: 80%;
   left: 40px;
-  width: 70%;
+  width: 80%;
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;

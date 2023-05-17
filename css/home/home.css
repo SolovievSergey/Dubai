@@ -58,11 +58,55 @@
   top: 0;
   right: 0;
 }
-.home__icon {
+.home__fasebook {
   margin-bottom: 20px;
+  transition: all 0.1s;
 }
-.home__icon:hover {
+.home__fasebook:hover {
   transform: scale(1.7);
+}
+.home__fasebook path:hover {
+  fill: #3b5998;
+}
+.home__twitter {
+  margin-bottom: 20px;
+  transition: all 0.1s;
+}
+.home__twitter:hover {
+  transform: scale(1.7);
+}
+.home__twitter path:hover {
+  fill: #00acee;
+}
+.home__youtube {
+  margin-bottom: 20px;
+  transition: all 0.1s;
+}
+.home__youtube:hover {
+  transform: scale(1.7);
+}
+.home__youtube path:hover {
+  fill: #c4302b;
+}
+.home__instagram {
+  margin-bottom: 20px;
+  transition: all 0.1s;
+}
+.home__instagram:hover {
+  transform: scale(1.7);
+}
+.home__instagram path:hover {
+  fill: #3f729b;
+}
+.home__in {
+  margin-bottom: 20px;
+  transition: all 0.1s;
+}
+.home__in:hover {
+  transform: scale(1.7);
+}
+.home__in path:hover {
+  fill: #3f729b;
 }
 .home__stat {
   position: absolute;

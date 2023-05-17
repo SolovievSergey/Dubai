@@ -45,13 +45,13 @@
 .intro__wrapper {
   display: flex;
   flex-wrap: wrap;
+  perspective: 1000px;
 }
 .intro__card {
   position: relative;
   margin: 0 auto;
   transform-style: preserve-3d;
-  perspective: 1000px;
-  transition: 0.8s linear;
+  transition: 0.9s linear;
   width: 430px;
   height: 572px;
   cursor: pointer;
@@ -367,10 +367,10 @@
     align-items: flex-start;
   }
   .intro__list {
-    margin-left: 20px;
+    margin-left: 17px;
   }
   .intro__list--last {
-    margin-left: 20px;
+    margin-left: 17px;
   }
   .intro__card {
     width: 140px;

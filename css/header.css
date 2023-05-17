@@ -1,6 +1,9 @@
 .header {
   padding: 20px 35px 25px;
 }
+.header__logo {
+  cursor: pointer;
+}
 .header__inner {
   display: flex;
   justify-content: space-between;
@@ -14,7 +17,7 @@
 .header__menu {
   font-family: "Gilroy";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
@@ -61,30 +64,36 @@
 .header__lang {
   font-family: "Gilroy";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
   color: #929292;
   margin-right: 55px;
 }
-.header__span {
+.header__span--en {
+  color: #FCD54C;
+  cursor: pointer;
+}
+.header__span--ru {
   margin-left: 10px;
   cursor: pointer;
 }
-.header__span:hover {
+.header__span--ru:hover {
   color: #FCD54C;
-}
-.header__span:first-child {
-  margin-left: 0;
 }
 .header__tel {
   font-family: "Gilroy";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
+  cursor: pointer;
+}
+.header__tel:hover {
+  transition: all 0.3s;
+  color: #FCD54C;
 }
 
 @media (max-width: 1366px) {

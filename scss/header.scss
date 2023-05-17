@@ -1,6 +1,10 @@
 .header {
   padding: 20px 35px 25px;
 
+    &__logo {
+        cursor: pointer;
+    }
+  
     &__inner {
         display: flex;
         justify-content: space-between;
@@ -16,7 +20,7 @@
     &__menu {
         font-family: 'Gilroy';
         font-style: normal;
-        font-weight: 500;
+        font-weight: 600;
         font-size: 14px;
         line-height: 17px;
         text-transform: uppercase;
@@ -72,7 +76,7 @@
     &__lang {
         font-family: 'Gilroy';
         font-style: normal;
-        font-weight: 700;
+        font-weight: 600;
         font-size: 14px;
         line-height: 17px;
         text-transform: uppercase;
@@ -80,33 +84,39 @@
         margin-right: 55px;
     }
 
-    &__span {
+    &__span--en {
+        color: #FCD54C;
+        cursor: pointer;
+    }
+    
+    &__span--ru {
         margin-left: 10px;
         cursor: pointer;
         
         &:hover {
             color: #FCD54C;  
         }
-    
-        &:first-child {
-            margin-left: 0;
-        }
     }
 
     &__tel {
         font-family: 'Gilroy';
         font-style: normal;
-        font-weight: 700;
+        font-weight: 600;
         font-size: 16px;
         line-height: 20px;
         color: #FFFFFF;
+        cursor: pointer;
+    
+        &:hover {
+            transition: all .3s;
+            color: #FCD54C;
+        }
+    
     }
-
 }    
     
 @media(max-width:1366px) {
     .header {
-
 
         &__menu {
             margin-left: 50px;
@@ -117,7 +127,6 @@
 
 @media(max-width:1199px) {
     .header {
-
 
         &__menu {
             display: none;  
@@ -137,15 +146,12 @@
 @media(max-width:767px) {
     .header {
       padding: 20px 20px 25px;
-  
     }
-
 }
 
 @media(max-width:699px) {
     .header {
 
-           
         &__book {
             display: none;
         }

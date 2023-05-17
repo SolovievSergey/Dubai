@@ -51,15 +51,15 @@
   &__wrapper {
     display: flex;
     flex-wrap: wrap;
-    
+    perspective: 1000px;
   }
   
   &__card {
     position: relative;
     margin: 0 auto;
     transform-style: preserve-3d;
-    perspective: 1000px;
-    transition:  .8s linear;
+    
+    transition:  .9s linear;
     width: 430px;
     height: 572px;
     cursor: pointer;
@@ -511,11 +511,11 @@
     }
     
     &__list {
-      margin-left: 20px;
+      margin-left: 17px;
     }
     
     &__list--last {
-      margin-left: 20px;
+      margin-left: 17px;
     }
     
     &__card {

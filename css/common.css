@@ -3,6 +3,9 @@
 .header {
   padding: 20px 35px 25px;
 }
+.header__logo {
+  cursor: pointer;
+}
 .header__inner {
   display: flex;
   justify-content: space-between;
@@ -16,7 +19,7 @@
 .header__menu {
   font-family: "Gilroy";
   font-style: normal;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
@@ -63,30 +66,36 @@
 .header__lang {
   font-family: "Gilroy";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 14px;
   line-height: 17px;
   text-transform: uppercase;
   color: #929292;
   margin-right: 55px;
 }
-.header__span {
+.header__span--en {
+  color: #FCD54C;
+  cursor: pointer;
+}
+.header__span--ru {
   margin-left: 10px;
   cursor: pointer;
 }
-.header__span:hover {
+.header__span--ru:hover {
   color: #FCD54C;
-}
-.header__span:first-child {
-  margin-left: 0;
 }
 .header__tel {
   font-family: "Gilroy";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 600;
   font-size: 16px;
   line-height: 20px;
   color: #FFFFFF;
+  cursor: pointer;
+}
+.header__tel:hover {
+  transition: all 0.3s;
+  color: #FCD54C;
 }
 
 @media (max-width: 1366px) {
@@ -188,11 +197,55 @@
   top: 0;
   right: 0;
 }
-.home__icon {
+.home__fasebook {
   margin-bottom: 20px;
+  transition: all 0.1s;
 }
-.home__icon:hover {
+.home__fasebook:hover {
   transform: scale(1.7);
+}
+.home__fasebook path:hover {
+  fill: #3b5998;
+}
+.home__twitter {
+  margin-bottom: 20px;
+  transition: all 0.1s;
+}
+.home__twitter:hover {
+  transform: scale(1.7);
+}
+.home__twitter path:hover {
+  fill: #00acee;
+}
+.home__youtube {
+  margin-bottom: 20px;
+  transition: all 0.1s;
+}
+.home__youtube:hover {
+  transform: scale(1.7);
+}
+.home__youtube path:hover {
+  fill: #c4302b;
+}
+.home__instagram {
+  margin-bottom: 20px;
+  transition: all 0.1s;
+}
+.home__instagram:hover {
+  transform: scale(1.7);
+}
+.home__instagram path:hover {
+  fill: #3f729b;
+}
+.home__in {
+  margin-bottom: 20px;
+  transition: all 0.1s;
+}
+.home__in:hover {
+  transform: scale(1.7);
+}
+.home__in path:hover {
+  fill: #3f729b;
 }
 .home__stat {
   position: absolute;
@@ -548,13 +601,13 @@
 .intro__wrapper {
   display: flex;
   flex-wrap: wrap;
+  perspective: 1000px;
 }
 .intro__card {
   position: relative;
   margin: 0 auto;
   transform-style: preserve-3d;
-  perspective: 1000px;
-  transition: 0.8s linear;
+  transition: 0.9s linear;
   width: 430px;
   height: 572px;
   cursor: pointer;
@@ -870,10 +923,10 @@
     align-items: flex-start;
   }
   .intro__list {
-    margin-left: 20px;
+    margin-left: 17px;
   }
   .intro__list--last {
-    margin-left: 20px;
+    margin-left: 17px;
   }
   .intro__card {
     width: 140px;
@@ -928,7 +981,7 @@
   flex-direction: column;
 }
 .wrapper .full__screen__logo {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.4);
   padding: 30px 15px;
   position: relative;
   z-index: 2;
@@ -936,6 +989,9 @@
   flex: 1 1 0;
   justify-content: center;
   align-items: center;
+}
+.wrapper .full__screen__logo img {
+  width: 300px;
 }
 .wrapper .full__screen__video {
   position: absolute;
@@ -1261,6 +1317,8 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+.useful .cards__item {
   cursor: pointer;
 }
 .useful .cards__front {
@@ -1270,7 +1328,7 @@
   position: absolute;
   top: 80%;
   left: 40px;
-  width: 70%;
+  width: 80%;
   font-family: "Gilroy";
   font-style: normal;
   font-weight: 700;
@@ -1802,10 +1860,18 @@
   line-height: 160%;
   color: #E8E8E8;
 }
-.footer__icon {
+.footer__icon img {
   margin-left: 30px;
 }
-.footer__icon:hover {
+.footer__icon img:hover {
+  transition: all 0.2s;
+  transform: scale(1.7);
+}
+.footer__icon--first img {
+  margin-left: 30px;
+}
+.footer__icon--first img:hover {
+  transition: all 0.2s;
   transform: scale(1.7);
 }
 
@@ -1881,8 +1947,12 @@
     margin-bottom: 16px;
     justify-content: center;
   }
+  .footer__icon--first img {
+    margin-left: 0;
+  }
 }
 body {
+  font-family: "Work Sans", "Space Grotesk", "Gilroy", sans-serif;
   background: #272727;
   font-size: 16px;
 }

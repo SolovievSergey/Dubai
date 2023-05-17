@@ -130,10 +130,20 @@
         color: #E8E8E8;
     }
 
-    &__icon {
+    &__icon img {
         margin-left: 30px;
     
         &:hover {
+            transition: all .2s;
+            transform: scale(1.7);
+        }
+    }
+    
+    &__icon--first img {
+        margin-left: 30px;
+    
+        &:hover {
+            transition: all .2s;
             transform: scale(1.7);
         }
     }
@@ -141,7 +151,6 @@
 
 @media(max-width:1366px) {
     .footer {
-
 
         &__row {
             flex-direction: column;
@@ -179,7 +188,6 @@
 @media(max-width:767px) {
     .footer {
 
-
         &__row {
             max-width: 688px;
         }
@@ -194,7 +202,6 @@
     .footer {
        padding-top: 40px;
 
-        
         &__logo {
             text-align: left;
             max-width: 260px;
@@ -234,6 +241,10 @@
         &__social {
             margin-bottom: 16px;
             justify-content: center;
+        }
+    
+        &__icon--first img {
+            margin-left: 0;
         }
     }
 }

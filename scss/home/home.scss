@@ -57,7 +57,6 @@
         font-size: 20px;
         line-height: 23px;
         color: #FFFFFF;
-        
     }
 
     &__social {
@@ -69,14 +68,86 @@
         right: 0;
     }
 
-    &__icon {
+    &__fasebook {
         margin-bottom: 20px;
+        transition: all .1s;
         
         &:hover {
             transform: scale(1.7);
         }
     }
-
+    
+    &__fasebook path {
+        
+        &:hover {
+           fill: #3b5998; 
+        }
+    }
+    
+    &__twitter {
+        margin-bottom: 20px;
+        transition: all .1s;
+        
+        &:hover {
+            transform: scale(1.7);
+        }
+    }
+    
+    &__twitter path {
+        
+        &:hover {
+           fill: #00acee; 
+        }
+    }
+    
+    &__youtube {
+        margin-bottom: 20px;
+        transition: all .1s;
+        
+        &:hover {
+            transform: scale(1.7);
+        }
+    }
+    
+    &__youtube path {
+        
+        &:hover {
+            fill: #c4302b; 
+        }
+    }
+    
+    &__instagram {
+        margin-bottom: 20px;
+        transition: all .1s;
+        
+        &:hover {
+            transform: scale(1.7);
+        }
+    }
+    
+    &__instagram path {
+        
+        &:hover {
+            fill:  #3f729b; 
+        }
+    }
+    
+    &__in {
+        margin-bottom: 20px;
+        transition: all .1s;
+        
+        &:hover {
+            transform: scale(1.7);
+        }
+    }
+    
+    &__in path {
+        
+        &:hover {
+            fill:  #3f729b; 
+        }
+    }
+    
     &__stat {
        position: absolute;
        bottom: 0;
